@@ -1,0 +1,25 @@
+.album-thumb {
+	min-width: 8em;
+	max-width: 20em;
+	margin: .5em;
+	padding: .5em;
+	border: 1px solid #ddd;
+	cursor: pointer;
+
+	&:hover {
+		background: #eee;
+		border: 1px solid #aaa;
+	}
+
+	img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	&-count {
+		color: #555;
+	}
+
+}
+
+

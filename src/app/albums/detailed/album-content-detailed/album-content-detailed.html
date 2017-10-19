@@ -1,0 +1,23 @@
+<div class="album-content-detailed">
+
+	<div class="page-back">
+		<a ui-sref="albumContentList({ albumId: $ctrl.albumId })">
+			back to Album content
+		</a>
+	</div>
+
+	<div class="album-content-detailed-body">
+		<h2>{{ $ctrl.content.id }}</h2>
+		<div>{{ $ctrl.content.title }}</div>
+		<div>{{ $ctrl.content.description }}</div>
+		<div>{{ $ctrl.content.url }}</div>
+
+		<div id="video" class="center-block-horiz">
+			<div class="responsive-wrapper responsive-wrapper-wxh-560x315">
+				<iframe ng-src="{{ $ctrl.content.url | trusted }}" allowfullscreen></iframe>
+			</div>
+		</div>
+
+	</div>
+
+</div>

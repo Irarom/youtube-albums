@@ -1,0 +1,10 @@
+<div class="album-thumb">
+	<div>
+		<a ui-sref="albumContentList({ albumId: $ctrl.album.id })">
+			<img ng-src="{{ $ctrl.album.poster }}"  />
+		</a>
+	</div>
+	<h3>{{ $ctrl.album.title }}</h3>
+	<div>{{ $ctrl.album.description }}</div>
+	<div class="album-thumb-count">items: {{ $ctrl.album.content_count }}</div>
+</div>

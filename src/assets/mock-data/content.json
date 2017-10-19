@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Album 001",
+    "description": "Description of Album 001",
+    "content_count": 2,
+    "poster": "https://placeholdit.co//i/500x500",
+    "content": [
+      {
+        "id": 101,
+        "title": "Chill Study Music • 24/7 Live Stream",
+        "description": "Video 101 Description",
+        "url": "https://www.youtube.com/watch?v=ql4S8z1jW8I"
+      },
+      {
+        "id": 102,
+        "title": "Abandoned | Beautiful Chillstep 2017 Mix",
+        "description": "Video 102 Description",
+        "url": "https://www.youtube.com/watch?v=MF2GsvelF7c"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Album 002",
+    "description": "Description of Album 002",
+    "content_count": 8,
+    "poster": "https://placeholdit.co//i/500x500",
+    "content": [
+      {
+        "id": 201,
+        "title": "'Farewell' Ambient & Chillstep Mix",
+        "description": "Video 201 Description",
+        "url": "https://www.youtube.com/watch?v=DueVenbdAfE"
+      },
+      {
+        "id": 202,
+        "title": "'Dawn' Beautiful Chillstep Mix 2017",
+        "description": "Video 202 Description",
+        "url": "https://www.youtube.com/watch?v=JXrnst7mZpM"
+      },
+      {
+        "id": 203,
+        "title": "'Spirit' Beautiful Chillstep Mix #33",
+        "description": "Video 203 Description",
+        "url": "https://www.youtube.com/watch?v=gdLPivsDRek"
+      },
+      {
+        "id": 204,
+        "title": "'Dusk' Beautiful Chillstep Mix 2017",
+        "description": "Video 204 Description",
+        "url": "https://www.youtube.com/watch?v=Gb7ZXd5qKrg"
+      },
+      {
+        "id": 205,
+        "title": "'Eternal' Ambient & Chillstep Mix ",
+        "description": "Video 205 Description",
+        "url": "https://www.youtube.com/watch?v=tV13T0RkP-c"
+      },
+      {
+        "id": 206,
+        "title": "'Wanderlust' Ambient & Chillstep Mix",
+        "description": "Video 206 Description",
+        "url": "https://www.youtube.com/watch?v=oW7JQfUx9G8"
+      },
+      {
+        "id": 207,
+        "title": "Travel | Chillstep Mix ",
+        "description": "Video 207 Description",
+        "url": "https://www.youtube.com/watch?v=gLgz581W4DA"
+      },
+      {
+        "id": 208,
+        "title": "Petals | A Beautiful Chillstep Mix ",
+        "description": "Video 208 Description",
+        "url": "https://www.youtube.com/watch?v=mzX1ws0SLGk"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Album 003",
+    "description": "Description of Album 003",
+    "content_count": 3,
+    "poster": "https://placeholdit.co//i/500x500",
+    "content": [
+      {
+        "id": 301,
+        "title": "'Beyond' Ambient & Chillstep Mix ",
+        "description": "Video 301 Description",
+        "url": "https://www.youtube.com/watch?v=b_rrjyRYJNo"
+      },
+      {
+        "id": 302,
+        "title": "VA Chillstep Dreams ( 2013-2014 ) ",
+        "description": "Video 302 Description",
+        "url": "https://www.youtube.com/watch?v=rzzEovqHnOw"
+      },
+      {
+        "id": 303,
+        "title": "Desire - Chillstep Mix ",
+        "description": "Video 303 Description",
+        "url": "https://www.youtube.com/watch?v=HhS-bAuvbaA"
+      }
+    ]
+  }
+]

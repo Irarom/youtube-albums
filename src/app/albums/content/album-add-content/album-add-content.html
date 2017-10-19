@@ -1,0 +1,70 @@
+<div class="album-add-content">
+
+		<button
+			ng-click="$ctrl.togglePopup()"
+		>
+			{{ $ctrl.popupOpened ? 'Close Popup' : 'Open Popup' }}
+		</button>
+
+		<div class="album-add-content-popup" ng-if="$ctrl.popupOpened">
+			<form name="addContentForm" ng-submit="$ctrl.onSubmit(addContentForm)">
+
+				<div class="form-head">
+					<h3>Add new content (popup)</h3>
+				</div>
+
+				<div class="form-body">
+					<div class="input-group">
+						<input
+							name="title"
+							ng-model="$ctrl.form.title"
+							placeholder="Title"
+							required
+						/>
+						<div class="input-group-errors" ng-show="addContentForm.title.$touched">
+							<p ng-show="addContentForm.title.$error.required">Field is required</p>
+						</div>
+					</div>
+
+					<div class="input-group">
+						<input
+							name="description"
+							ng-model="$ctrl.form.description"
+							placeholder="Description"
+							required
+						/>
+						<div class="input-group-errors" ng-show="addContentForm.description.$touched">
+							<p ng-show="addContentForm.description.$error.required">Field is required</p>
+						</div>
+					</div>
+
+					<div class="input-group">
+						<input
+							name="url"
+							ng-model="$ctrl.form.url"
+							placeholder="URL"
+							ng-pattern="$ctrl.youtubeLinkRegex"
+							required
+						/>
+						<div class="input-group-errors" ng-show="addContentForm.url.$touched">
+							<p ng-show="addContentForm.url.$error.pattern">It is not valid youtube link</p>
+							<p ng-show="addContentForm.url.$error.required">Field is required</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-foot">
+					<button
+						ng-pattern
+						ng-disabled="addContentForm.$invalid"
+						type="submit">
+						submit
+					</button>
+				</div>
+
+			</form>
+		</div>
+
+
+
+</div>

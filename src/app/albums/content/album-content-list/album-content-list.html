@@ -1,0 +1,27 @@
+<div class="album-content-list">
+
+	<div class="page-back">
+		<a ui-sref="albumList">
+			back to Album list
+		</a>
+	</div>
+
+	<div class="album-content-list-head">
+		<h2>Items of album "{{ $ctrl.album.title }}"</h2>
+
+		<div>
+			<album-add-content
+				on-change="$ctrl.onContentAdd()">
+			</album-add-content>
+		</div>
+	</div>
+
+	<div class="album-content-list-body">
+		<album-content-thumb
+			content="content"
+			ui-sref="albumContentDetailed({ albumId: $ctrl.album.id, contentId: content.id})"
+			ng-repeat="content in $ctrl.album.content">
+		</album-content-thumb>
+	</div>
+
+</div>

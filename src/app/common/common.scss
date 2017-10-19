@@ -1,0 +1,59 @@
+@import "./video-responsive";
+
+* {
+	box-sizing: border-box;
+}
+
+.app {
+	&-brand {
+		padding: 0 .25em;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+}
+
+.outer-wrap {
+	background-color: #eee;
+	padding: .5em;
+}
+
+.inner-wrap {
+	max-width: 73em;
+	margin: 0 auto;
+}
+
+
+input[ng-model] {
+	padding: .4em 1em;
+	width: 100%;
+	border-radius: .2em;
+	border: 1px solid #999;
+	margin: .2em 0;
+}
+
+.input-group-errors {
+	color: red;
+
+	& > * {
+		margin: .2em 0 .5em;
+		font-size: .9em;
+		text-align: right;
+	}
+}
+
+input.ng-invalid.ng-touched {
+
+	border: 1px solid red;
+
+}
+
+form button {
+	margin-top: 1em;
+}
+
+.page-back {
+	padding: 1em .5em;
+}

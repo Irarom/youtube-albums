@@ -1,0 +1,9 @@
+.album-content-thumb {
+	padding: 1em .5em .5em;
+	margin: .5em;
+	cursor: pointer;
+
+	&:hover {
+		background: #eee;
+	}
+}

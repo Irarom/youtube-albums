@@ -1,0 +1,12 @@
+.album-list {
+
+	&-head {
+		padding: .5em;
+	}
+
+	&-body {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+}
